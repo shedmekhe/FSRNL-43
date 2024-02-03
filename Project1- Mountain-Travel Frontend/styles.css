@@ -1,0 +1,112 @@
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  header {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 0.2vh;
+    width: 100%;
+    justify-content: space-between; 
+    top: 0;
+    color: azure;
+  }
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+  }
+  header nav a {
+    text-decoration: none;
+    color: azure;
+  }
+  body{
+    background-image: url("./assets/dreamy_jet_world-normal.jpg");
+  }
+  main{
+    height: auto;
+    margin-top: 5vh;
+    width: 100%;
+    text-align: center;
+  }
+  #Contact-Info {
+    padding: 3%;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #Contact-Info h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0.2em;
+    color: aliceblue  ;
+  }
+  
+  #Contact-Info h3 {
+    width: 100%;
+    text-align: center;
+    margin: 0.5em;
+    color: azure;
+  }
+  #Contact-Info button {
+    border: none;
+    padding: 0.6em;
+    border-radius: 2em;
+    text-align: center;
+    background-color: black;
+    color: azure;
+    text-transform: uppercase;
+    margin: 0.6em;
+  }
+  
+  .Travellers-ShowImages {
+    width: 100%;
+    height: auto;
+    padding: 0%;
+  }
+  .Travellers-ShowImages #row1 {
+    padding: 70px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .Travellers-ShowImages #row2 {
+    padding: 30px;
+    padding-top: 0px;
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .Travellers-ShowImages #row1 #small img{
+    margin: 0.1em;
+    width: 505px;
+    height: 290px;
+  }
+  .Travellers-ShowImages #row1 #big img {
+    margin: 0.1em;
+    width: 505px;
+    height: 290px;
+  }
+  
+  .Travellers-ShowImages #row2 #small img {
+    margin: 0.1em;
+    width: 505px;
+    height: 290px;
+  }
+  
+  .Travellers-ShowImages #row2 #big img {
+    margin: 0.1em;
+    width: 505px;
+    height: 290px;
+  }
+  
